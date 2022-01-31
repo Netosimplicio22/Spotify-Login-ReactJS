@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #faf8f8;
+    overflow-x: hidden;
+}
+
+ .contaneir-principal{
+     width: 100vw;
+     height: 100vh;
+     background-color: #fff;
+     display: block;
+ }
+
+ .contaneir-principal .first-contaneir{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 2px solid #d1cfcf;
+     height: 104px;
+     width: 100%;
+     background-color: black;
+ }
+
+ .contaneir-principal .segund-contaneir{
+     width: 100%;
+     height: 100%;
+     background-color: #faf8f8;
+     margin: auto;     
+     text-align: center;
+ }
+
+ .contaneir-principal .segund-contaneir main{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .contaneir-principal .segund-contaneir main .texto-sobre{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 35px 0px 10px 0px;
+ }
+
+ .contaneir-principal .segund-contaneir main .texto-sobre p{
+     font-size: 0.875rem;
+     font-family: sans-serif;
+     color: black;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+
+ .contaneir-principal .segund-contaneir main .texto-sobre .btns{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .contaneir-principal .segund-contaneir main .texto-sobre .btns button{
+    margin: 5px;
+    width: 450px;
+    height: 48px;
+    border: 0;
+    border-radius: 500px;
+ }
+
+ #facebook{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     background-color: #485A96;
+     font-size: 15px;
+     text-transform: uppercase;
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: 600;
+ }
+
+ #facebook img{
+     width: 22px;
+     height: 22px;
+     margin-right: 10px;
+ }
+
+ #facebook:hover{
+     border: 1px solid black;
+ }
+
+ #apple{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+ }
+
+ #apple img{
+     width: 18px;
+     height: 18px;
+     margin-right: 10px;
+ }
+
+ #apple:hover{
+     border: 1px solid black 
+ }
+
+ #google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #6A6A6A;
+    border: 1px solid #6A6A6A;
+    background-color: #faf8f8;
+ }
+
+ #google img{
+     width: 18px;
+     height: 18px;
+     margin-right: 10px;
+ }
+
+ #google:hover{
+     border: 1px solid black;
+ }
+
+ #telefone{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #6A6A6A;
+    border: 1px solid #6A6A6A;
+    background-color: #faf8f8;
+ }
+
+ #telefone:hover{
+     border: 1px solid black;
+ }
+
+ .contaneir-principal .segund-contaneir main .or{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+ }
+
+ .contaneir-principal .segund-contaneir main .or hr{
+     width: 196px;
+     height: 0;
+     border: 1px solid #d1cfcf;
+ }
+
+ .contaneir-principal .segund-contaneir main .or span{
+    margin: 10px 25px 0px 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: 'Archivo';
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block label{
+     color: black;
+     font-size: 0.875rem;
+     font-weight: 600;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block input{
+     width: 450px;
+     height: 52px;
+     border-radius: 5px;
+     border: 1px solid #6A6A6A;
+     background: #faf8f8;
+     text-indent: 24px;
+     margin: 10px 0px;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block .alert-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #D31225;
+    font-size: 0.840rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block .alert-user p{
+     margin-left: 4px;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block .alert-pass{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #D31225;
+    font-size: 0.840rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: none;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block .alert-pass p{
+     margin-left: 4px;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block p span{
+     color: white;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block input:hover{
+     border: 1px solid black
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .input-block ::placeholder{
+     font-size: 1rem;
+     font-family: sans-serif;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .forgot-password a{
+     text-decoration: none;
+     font-size: 0.875rem;
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .contaneir-principal .segund-contaneir main .form-login .forgot-password a:hover{
+     text-decoration: underline black;
+ }
+
+.contaneir-principal .segund-contaneir .form-login .dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .input-group{
+    display: flex;
+    align-items: center;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .input-group label{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .input-group input{
+    appearance: none;
+    background-color: #169B45;
+    border: 1px solid #169B45;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .input-group input::before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transform: rotate(-45deg);
+    width: 8px;
+    height: 4px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    opacity: 0;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .input-group input:checked::before{
+    opacity: 1;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .btn-entrar button{
+    background-color: #1ED760;
+    width: 131.16px;
+    height: 48px;
+    border: 0;
+    border-radius: 500px;
+    color: black;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-left: 190px;
+    font-size: 14px;
+}
+
+.contaneir-principal .segund-contaneir .form-login .dados .btn-entrar button:hover{
+    background-color: #39e274;
+}
+
+.contaneir-principal .segund-contaneir .form-login hr{
+    margin: 20px 0px 30px 0px;
+    border: 1px solid rgb(217,218,220);
+}
+
+.contaneir-principal .segund-contaneir main .form-login .finish{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contaneir-principal .segund-contaneir main .form-login .finish span{
+    font-size: 1.125rem;
+    color: black;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.contaneir-principal .segund-contaneir main .form-login .finish button{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #6A6A6A;
+    border: 1px solid #6A6A6A;
+    background-color: #faf8f8;
+    margin: 5px;
+    width: 450px;
+    height: 48px;
+    border-radius: 500px;
+}
+
+.contaneir-principal .segund-contaneir main .form-login .finish button:hover{
+    border: 1px solid black;
+}
